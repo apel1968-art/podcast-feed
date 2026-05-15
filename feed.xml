@@ -25,7 +25,5 @@
       <link>https://apel1968-art.github.io/podcast-feed/</link>
     </image>
 
-    <!-- Les épisodes sont insérés ici automatiquement par generate_feed.py -->
-
   </channel>
 </rss>
