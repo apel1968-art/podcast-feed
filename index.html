@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Podcast — apel1968-art</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0d0d0d;
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 16px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.6);
+    }
+    header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    header p  { color: #aaa; max-width: 500px; }
+    .badges {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 1.25rem 0;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: #f0f0f0;
+      font-size: 0.9rem;
+      transition: border-color 0.2s;
+    }
+    .badge:hover { border-color: #1DB954; }
+    .rss-box {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      font-size: 0.85rem;
+      color: #aaa;
+      margin-top: 0.5rem;
+      max-width: 480px;
+      width: 100%;
+      word-break: break-all;
+    }
+    .rss-box span { color: #1DB954; font-weight: 600; }
+    #episodes { width: 100%; max-width: 640px; margin-top: 2rem; }
+    #episodes h2 { font-size: 1.1rem; color: #aaa; margin-bottom: 1rem; }
+    .episode {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .episode h3 { font-size: 1rem; margin-bottom: 0.4rem; }
+    .episode audio { width: 100%; margin-top: 0.6rem; }
+    .episode .meta { font-size: 0.8rem; color: #666; }
+    footer { margin-top: 3rem; color: #444; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="cover.jpg" alt="Podcast cover" onerror="this.style.display='none'"/>
+  <h1>Nom du Podcast</h1>
+  <p>Description de votre podcast — remplacez ce texte.</p>
+
+  <div class="badges">
+    <a class="badge" href="https://open.spotify.com" target="_blank">
+      🎵 Spotify
+    </a>
+    <a class="badge" href="https://podcasts.apple.com" target="_blank">
+      🎧 Apple Podcasts
+    </a>
+    <a class="badge" href="feed.xml" target="_blank">
+      📡 RSS Feed
+    </a>
+  </div>
+
+  <div class="rss-box">
+    RSS : <span>https://apel1968-art.github.io/podcast-feed/feed.xml</span>
+  </div>
+</header>
+
+<section id="episodes">
+  <h2>Épisodes</h2>
+  <p id="loading" style="color:#555">Chargement des épisodes…</p>
+</section>
+
+<footer>Propulsé par GitHub Pages · apel1968-art</footer>
+
+<script>
+// Charge et parse le feed.xml pour afficher les épisodes dynamiquement
+async function loadEpisodes() {
+  try {
+    const res  = await fetch("feed.xml");
+    const text = await res.text();
+    const xml  = new DOMParser().parseFromString(text, "text/xml");
+    const items = [...xml.querySelectorAll("item")];
+
+    const container = document.getElementById("episodes");
+    document.getElementById("loading").remove();
+
+    if (!items.length) {
+      container.innerHTML += '<p style="color:#555">Aucun épisode pour l\'instant.</p>';
+      return;
+    }
+
+    items.forEach(item => {
+      const title   = item.querySelector("title")?.textContent || "Épisode";
+      const desc    = item.querySelector("description")?.textContent || "";
+      const url     = item.querySelector("enclosure")?.getAttribute("url") || "";
+      const pubDate = item.querySelector("pubDate")?.textContent || "";
+      const date    = pubDate ? new Date(pubDate).toLocaleDateString("fr-FR") : "";
+
+      container.innerHTML += `
+        <div class="episode">
+          <h3>${title}</h3>
+          <p class="meta">${date}</p>
+          <p style="font-size:.9rem;color:#aaa;margin-top:.4rem">${desc}</p>
+          ${url ? `<audio controls preload="none" src="${url}"></audio>` : ""}
+        </div>`;
+    });
+  } catch(e) {
+    document.getElementById("loading").textContent = "Impossible de charger les épisodes.";
+  }
+}
+loadEpisodes();
+</script>
+
+</body>
+</html>
