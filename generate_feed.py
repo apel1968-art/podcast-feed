@@ -1,132 +1,173 @@
-#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-Générateur RSS automatique pour podcast GitHub Pages
-Usage : python generate_feed.py
+generate_feed.py — Génère feed_fr.xml / feed_en.xml / feed_es.xml
+depuis les fichiers JSON dans episodes/{lang}/*.json
+et les métadonnées de podcast_meta.json.
+
+Usage: python generate_feed.py
 """
 
+import json
 import os
-import re
+import glob
 from datetime import datetime, timezone
 
-# ─── CONFIGURATION ────────────────────────────────────────────────────────────
-BASE_URL        = "https://apel1968-art.github.io/podcast-feed"
-PODCAST_TITLE   = "Nom du Podcast"
-PODCAST_DESC    = "Description de votre podcast — remplacez ce texte."
-AUTHOR          = "apel1968-art"
-EMAIL           = "votre@email.com"
-LANGUAGE        = "fr-fr"
-CATEGORY        = "Music"
-EXPLICIT        = "false"
-EPISODES_DIR    = "./episodes"
-OUTPUT_FILE     = "./feed.xml"
-# ──────────────────────────────────────────────────────────────────────────────
+BASE_URL     = "https://apel1968-art.github.io/podcast-feed"
+META_FILE    = "podcast_meta.json"
+EPISODES_DIR = "episodes"
+LANGS        = ["fr", "en", "es"]
 
-def format_duration(seconds):
+
+def fmt_rfc2822(iso_str: str) -> str:
+    """Convertit une date ISO 8601 en RFC 2822 pour RSS."""
+    try:
+        dt = datetime.fromisoformat(iso_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.strftime("%a, %d %b %Y %H:%M:%S %z")
+    except Exception:
+        return datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S %z")
+
+
+def fmt_duration(seconds: int) -> str:
     h, r = divmod(int(seconds), 3600)
     m, s = divmod(r, 60)
     return f"{h:02}:{m:02}:{s:02}"
 
-def slug_to_title(filename):
-    name = filename.replace(".mp3", "")
-    name = re.sub(r"^ep\d+[-_]?", "", name, flags=re.IGNORECASE)
-    name = name.replace("-", " ").replace("_", " ").title()
-    return name.strip() or filename.replace(".mp3", "")
 
-def get_episode_number(filename):
-    match = re.search(r"ep(\d+)", filename, re.IGNORECASE)
-    return int(match.group(1)) if match else 999
+def esc(text: str) -> str:
+    """Échapper les caractères XML."""
+    return (text
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace('"', "&quot;"))
 
-def build_item(filename, index_from_end):
-    path = os.path.join(EPISODES_DIR, filename)
-    size = os.path.getsize(path)
-    title = slug_to_title(filename)
-    ep_num = get_episode_number(filename)
-    url = f"{BASE_URL}/episodes/{filename}"
 
-    # Essayer d'extraire la durée via mutagen (optionnel)
-    duration = "00:00:00"
-    try:
-        from mutagen.mp3 import MP3
-        audio = MP3(path)
-        duration = format_duration(audio.info.length)
-    except ImportError:
-        pass  # mutagen pas installé — durée laissée à 00:00:00
-    except Exception:
-        pass
+def load_episodes(lang: str) -> list:
+    pattern = os.path.join(EPISODES_DIR, lang, "*.json")
+    episodes = []
+    for path in glob.glob(pattern):
+        try:
+            with open(path, encoding="utf-8") as f:
+                ep = json.load(f)
+            ep["_path"] = path
+            episodes.append(ep)
+        except Exception as e:
+            print(f"  ⚠️  Erreur lecture {path}: {e}")
+    episodes.sort(key=lambda e: e.get("episode_number", 999))
+    return episodes
 
-    # Date de publication : basée sur la date de modification du fichier
-    mtime = os.path.getmtime(path)
-    pub_date = datetime.fromtimestamp(mtime, tz=timezone.utc).strftime(
-        "%a, %d %b %Y %H:%M:%S +0000"
-    )
+
+def build_item(ep: dict) -> str:
+    num      = ep.get("episode_number", 0)
+    title    = esc(ep.get("title", f"Épisode {num}"))
+    desc     = esc(ep.get("description", ""))
+    pub      = fmt_rfc2822(ep.get("published_at", ""))
+    audio    = ep.get("audio_url", "")
+    size     = ep.get("audio_size_bytes", 0)
+    dur      = fmt_duration(ep.get("duration_seconds", 0))
+    guid     = esc(ep.get("guid", audio))
+    img      = ep.get("image_url", "")
+    keywords = ", ".join(ep.get("keywords", []))
+    season   = ep.get("season", 1)
+
+    img_tag = f'\n      <itunes:image href="{esc(img)}"/>' if img else ""
 
     return f"""
     <item>
-      <title>Épisode {ep_num:02d} — {title}</title>
-      <description>Épisode {ep_num:02d} du podcast {PODCAST_TITLE}.</description>
-      <pubDate>{pub_date}</pubDate>
-      <enclosure url="{url}" length="{size}" type="audio/mpeg"/>
-      <itunes:duration>{duration}</itunes:duration>
-      <itunes:episode>{ep_num}</itunes:episode>
+      <title>{title}</title>
+      <description>{desc}</description>
+      <pubDate>{pub}</pubDate>
+      <enclosure url="{esc(audio)}" length="{size}" type="audio/mpeg"/>
+      <guid isPermaLink="false">{guid}</guid>
+      <itunes:duration>{dur}</itunes:duration>
+      <itunes:episode>{num}</itunes:episode>
+      <itunes:season>{season}</itunes:season>
       <itunes:episodeType>full</itunes:episodeType>
-      <guid isPermaLink="true">{url}</guid>
+      <itunes:keywords>{esc(keywords)}</itunes:keywords>{img_tag}
     </item>"""
 
-def main():
-    # Lister et trier les MP3
-    if not os.path.isdir(EPISODES_DIR):
-        print(f"⚠️  Dossier '{EPISODES_DIR}' introuvable — aucun épisode.")
-        mp3_files = []
-    else:
-        mp3_files = sorted(
-            [f for f in os.listdir(EPISODES_DIR) if f.lower().endswith(".mp3")],
-            key=get_episode_number
-        )
 
-    if not mp3_files:
-        print("ℹ️  Aucun fichier MP3 trouvé dans ./episodes/")
+def build_feed(lang: str, meta: dict, episodes: list) -> str:
+    m = meta[lang]
+    title    = esc(m["title"])
+    desc     = esc(m["description"])
+    author   = esc(m["author"])
+    email    = esc(m["email"])
+    language = m["language"]
+    category = esc(m["category"])
+    sub      = esc(m.get("subcategory", ""))
+    explicit = m.get("explicit", "false")
+    image    = esc(m["image_url"])
+    link     = esc(m["link"])
+    feed_url = esc(m["feed_url"])
+    copyright_ = esc(m.get("copyright", ""))
 
-    items_xml = "".join(
-        build_item(f, i) for i, f in enumerate(reversed(mp3_files))
-    )
+    items = "".join(build_item(ep) for ep in reversed(episodes))
 
-    feed = f"""<?xml version="1.0" encoding="UTF-8"?>
+    sub_tag = f'\n    <itunes:category text="{sub}"/>' if sub else ""
+
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>
-    <title>{PODCAST_TITLE}</title>
-    <link>{BASE_URL}/</link>
-    <atom:link href="{BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
-    <language>{LANGUAGE}</language>
-    <description>{PODCAST_DESC}</description>
-    <itunes:author>{AUTHOR}</itunes:author>
+    <title>{title}</title>
+    <link>{link}</link>
+    <atom:link href="{feed_url}" rel="self" type="application/rss+xml"/>
+    <language>{language}</language>
+    <description>{desc}</description>
+    <copyright>{copyright_}</copyright>
+    <itunes:author>{author}</itunes:author>
     <itunes:owner>
-      <itunes:name>{AUTHOR}</itunes:name>
-      <itunes:email>{EMAIL}</itunes:email>
+      <itunes:name>{author}</itunes:name>
+      <itunes:email>{email}</itunes:email>
     </itunes:owner>
-    <itunes:category text="{CATEGORY}"/>
-    <itunes:image href="{BASE_URL}/cover.jpg"/>
-    <itunes:explicit>{EXPLICIT}</itunes:explicit>
-    <itunes:type>episodic</itunes:type>
+    <itunes:category text="{category}">{sub_tag}
+    </itunes:category>
+    <itunes:image href="{image}"/>
     <image>
-      <url>{BASE_URL}/cover.jpg</url>
-      <title>{PODCAST_TITLE}</title>
-      <link>{BASE_URL}/</link>
+      <url>{image}</url>
+      <title>{title}</title>
+      <link>{link}</link>
     </image>
-{items_xml}
+    <itunes:explicit>{explicit}</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+{items}
   </channel>
 </rss>
 """
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(feed)
 
-    print(f"✅ feed.xml généré — {len(mp3_files)} épisode(s)")
-    for mp3 in mp3_files:
-        print(f"   🎙️  {mp3}")
+def main():
+    import sys, shutil
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+
+    with open(META_FILE, encoding="utf-8") as f:
+        meta = json.load(f)
+
+    total = 0
+    for lang in LANGS:
+        episodes = load_episodes(lang)
+        feed_xml = build_feed(lang, meta, episodes)
+        out_file = f"feed_{lang}.xml"
+        with open(out_file, "w", encoding="utf-8") as f:
+            f.write(feed_xml)
+        print(f"[OK] {out_file} -- {len(episodes)} episode(s)")
+        for ep in episodes:
+            n = ep.get("episode_number", "?")
+            t = ep.get("title", "")
+            print(f"     E{n:02} {t}")
+        total += len(episodes)
+
+    shutil.copy("feed_fr.xml", "feed.xml")
+    print(f"\n[OK] feed.xml -> copie de feed_fr.xml")
+    print(f"Total : {total} episode(s) sur {len(LANGS)} langues")
+
 
 if __name__ == "__main__":
     main()

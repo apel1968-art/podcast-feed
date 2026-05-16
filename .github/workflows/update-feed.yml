@@ -1,41 +1,65 @@
-name: 🎙️ Update Podcast RSS Feed
+name: 🎙️ Publish Podcast Feed
 
 on:
   push:
     branches: [main]
     paths:
-      - 'episodes/*.mp3'
+      - 'episodes/**/*.json'
       - 'generate_feed.py'
-
-  workflow_dispatch:  # déclenchement manuel possible
+      - 'podcast_meta.json'
+  workflow_dispatch:
 
 jobs:
-  generate-feed:
+  publish:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout (with history for diff)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
-      - name: Setup Python
+      - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install mutagen
+        run: pip install requests
 
-      - name: Generate RSS feed
+      - name: Generate RSS feeds (FR / EN / ES)
         run: python generate_feed.py
 
-      - name: Commit & push updated feed.xml
+      - name: Detect new episode JSONs and cross-post
+        env:
+          BLUESKY_HANDLE:        ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD:  ${{ secrets.BLUESKY_APP_PASSWORD }}
+          TWITTER_API_KEY:       ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET:    ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN:  ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+        run: |
+          # Détecter les nouveaux fichiers JSON ajoutés dans ce push
+          NEW_JSON=$(git diff HEAD~1 HEAD --name-only --diff-filter=A 2>/dev/null | grep '^episodes/.*\.json$' || true)
+          if [ -z "$NEW_JSON" ]; then
+            echo "Aucun nouvel épisode JSON détecté — pas de cross-post."
+          else
+            echo "Nouveaux épisodes à publier :"
+            echo "$NEW_JSON"
+            while IFS= read -r ep_file; do
+              echo "→ Cross-post: $ep_file"
+              python cross_post.py "$ep_file"
+            done <<< "$NEW_JSON"
+          fi
+
+      - name: Commit updated feed files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml
-          git diff --cached --quiet && echo "Rien à committer" || \
-            git commit -m "🎙️ Auto-update RSS feed [skip ci]"
-          git push
+          git add feed_fr.xml feed_en.xml feed_es.xml feed.xml
+          git diff --cached --quiet && echo "Feeds déjà à jour." || {
+            git commit -m "🎙️ Auto-update RSS feeds [skip ci]"
+            git push
+          }

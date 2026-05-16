@@ -1,0 +1,44 @@
+{
+  "fr": {
+    "title": "Ce Qu'on Te Cache — Le Podcast",
+    "description": "Les archives déclassifiées, les dossiers secrets, les preuves que personne ne veut voir. Chaque épisode est basé uniquement sur des sources primaires : documents officiels, FOIA, archives nationales.",
+    "author": "Ce Qu'on Te Cache",
+    "email": "osvirgil370@gmail.com",
+    "language": "fr-CA",
+    "category": "Society & Culture",
+    "subcategory": "History",
+    "explicit": "false",
+    "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "link": "https://www.youtube.com/@CeQuonTeCache",
+    "feed_url": "https://apel1968-art.github.io/podcast-feed/feed_fr.xml",
+    "copyright": "2026 Ce Qu'on Te Cache"
+  },
+  "en": {
+    "title": "The Truth They Hide — Podcast",
+    "description": "Declassified archives, secret files, and the evidence nobody wants you to see. Every episode based on primary sources only: official documents, FOIA, national archives.",
+    "author": "The Truth They Hide",
+    "email": "osvirgil370@gmail.com",
+    "language": "en-US",
+    "category": "Society & Culture",
+    "subcategory": "History",
+    "explicit": "false",
+    "image_url": "https://apel1968-art.github.io/podcast-feed/covers/tth_en.jpg",
+    "link": "https://www.youtube.com/@TheTruthTheyHide",
+    "feed_url": "https://apel1968-art.github.io/podcast-feed/feed_en.xml",
+    "copyright": "2026 The Truth They Hide"
+  },
+  "es": {
+    "title": "Lo Que Te Ocultan — El Podcast",
+    "description": "Archivos desclasificados, expedientes secretos y las pruebas que nadie quiere que veas. Cada episodio basado exclusivamente en fuentes primarias: documentos oficiales, FOIA, archivos nacionales.",
+    "author": "Lo Que Te Ocultan",
+    "email": "osvirgil370@gmail.com",
+    "language": "es-ES",
+    "category": "Society & Culture",
+    "subcategory": "History",
+    "explicit": "false",
+    "image_url": "https://apel1968-art.github.io/podcast-feed/covers/lqto_es.jpg",
+    "link": "https://www.youtube.com/channel/UCflBDz7jIOaI68IWRK181sA",
+    "feed_url": "https://apel1968-art.github.io/podcast-feed/feed_es.xml",
+    "copyright": "2026 Lo Que Te Ocultan"
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Lo Que Te Ocultan — El Podcast</title>
+    <link>https://www.youtube.com/channel/UCflBDz7jIOaI68IWRK181sA</link>
+    <atom:link href="https://apel1968-art.github.io/podcast-feed/feed_es.xml" rel="self" type="application/rss+xml"/>
+    <language>es-ES</language>
+    <description>Archivos desclasificados, expedientes secretos y las pruebas que nadie quiere que veas. Cada episodio basado exclusivamente en fuentes primarias: documentos oficiales, FOIA, archivos nacionales.</description>
+    <copyright>2026 Lo Que Te Ocultan</copyright>
+    <itunes:author>Lo Que Te Ocultan</itunes:author>
+    <itunes:owner>
+      <itunes:name>Lo Que Te Ocultan</itunes:name>
+      <itunes:email>osvirgil370@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Society &amp; Culture">
+    <itunes:category text="History"/>
+    </itunes:category>
+    <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/lqto_es.jpg"/>
+    <image>
+      <url>https://apel1968-art.github.io/podcast-feed/covers/lqto_es.jpg</url>
+      <title>Lo Que Te Ocultan — El Podcast</title>
+      <link>https://www.youtube.com/channel/UCflBDz7jIOaI68IWRK181sA</link>
+    </image>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+  </channel>
+</rss>

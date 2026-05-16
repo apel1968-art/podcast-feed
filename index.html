@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Podcast — apel1968-art</title>
+  <title>Ce Qu'on Te Cache — Le Podcast</title>
+  <meta name="description" content="Les archives déclassifiées, les dossiers secrets, les preuves que personne ne veut voir."/>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #0d0d0d;
+      background: #0a0a0a;
       color: #f0f0f0;
       min-height: 100vh;
       display: flex;
@@ -16,114 +17,176 @@
       align-items: center;
       padding: 2rem 1rem;
     }
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
+    header { text-align: center; margin-bottom: 1.5rem; max-width: 640px; }
     header img {
-      width: 160px;
-      height: 160px;
-      border-radius: 16px;
-      object-fit: cover;
+      width: 160px; height: 160px;
+      border-radius: 18px; object-fit: cover;
       margin-bottom: 1rem;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.6);
+      box-shadow: 0 6px 32px rgba(0,0,0,0.7);
     }
-    header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    header p  { color: #aaa; max-width: 500px; }
-    .badges {
-      display: flex;
-      gap: 0.75rem;
+    header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    header p  { color: #999; line-height: 1.5; }
+    .lang-tabs {
+      display: flex; gap: 0.5rem;
       justify-content: center;
-      flex-wrap: wrap;
-      margin: 1.25rem 0;
+      margin: 1rem 0 0.5rem;
+    }
+    .tab {
+      background: #1a1a1a; border: 1px solid #333;
+      border-radius: 6px; padding: 0.35rem 0.9rem;
+      cursor: pointer; font-size: 0.85rem; color: #aaa;
+    }
+    .tab.active  { border-color: #1DB954; color: #1DB954; }
+    .badges {
+      display: flex; gap: 0.6rem;
+      justify-content: center; flex-wrap: wrap;
+      margin: 1rem 0;
     }
     .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      background: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 8px;
-      padding: 0.5rem 1rem;
-      text-decoration: none;
-      color: #f0f0f0;
-      font-size: 0.9rem;
-      transition: border-color 0.2s;
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      background: #1a1a1a; border: 1px solid #2a2a2a;
+      border-radius: 8px; padding: 0.5rem 1rem;
+      text-decoration: none; color: #f0f0f0; font-size: 0.88rem;
+      transition: border-color 0.2s, color 0.2s;
     }
-    .badge:hover { border-color: #1DB954; }
+    .badge:hover { border-color: #1DB954; color: #1DB954; }
     .rss-box {
-      background: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
-      font-size: 0.85rem;
-      color: #aaa;
-      margin-top: 0.5rem;
-      max-width: 480px;
-      width: 100%;
-      word-break: break-all;
+      background: #111; border: 1px solid #222;
+      border-radius: 10px; padding: 0.75rem 1rem;
+      font-size: 0.8rem; color: #666;
+      max-width: 520px; width: 100%; word-break: break-all;
+      margin-top: 0.25rem;
     }
     .rss-box span { color: #1DB954; font-weight: 600; }
     #episodes { width: 100%; max-width: 640px; margin-top: 2rem; }
-    #episodes h2 { font-size: 1.1rem; color: #aaa; margin-bottom: 1rem; }
+    #episodes h2 { font-size: 1rem; color: #666; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
     .episode {
-      background: #1a1a1a;
-      border: 1px solid #2a2a2a;
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
+      background: #111; border: 1px solid #1e1e1e;
+      border-radius: 12px; padding: 1rem 1.25rem;
       margin-bottom: 0.75rem;
+      transition: border-color 0.2s;
     }
-    .episode h3 { font-size: 1rem; margin-bottom: 0.4rem; }
-    .episode audio { width: 100%; margin-top: 0.6rem; }
-    .episode .meta { font-size: 0.8rem; color: #666; }
-    footer { margin-top: 3rem; color: #444; font-size: 0.8rem; }
+    .episode:hover { border-color: #2a2a2a; }
+    .episode .ep-num { font-size: 0.75rem; color: #1DB954; text-transform: uppercase; letter-spacing: 0.08em; }
+    .episode h3 { font-size: 1rem; margin: 0.25rem 0 0.4rem; }
+    .episode p  { font-size: 0.85rem; color: #888; line-height: 1.45; }
+    .episode audio { width: 100%; margin-top: 0.75rem; }
+    .episode .meta { font-size: 0.75rem; color: #555; margin-top: 0.5rem; }
+    footer { margin-top: 3rem; color: #333; font-size: 0.78rem; text-align: center; }
   </style>
 </head>
 <body>
 
 <header>
-  <img src="cover.jpg" alt="Podcast cover" onerror="this.style.display='none'"/>
-  <h1>Nom du Podcast</h1>
-  <p>Description de votre podcast — remplacez ce texte.</p>
+  <img src="covers/cqtc_fr.jpg" alt="Ce Qu'on Te Cache" onerror="this.style.display='none'"/>
+  <h1 id="pod-title">Ce Qu'on Te Cache — Le Podcast</h1>
+  <p id="pod-desc">Les archives déclassifiées, les dossiers secrets, les preuves que personne ne veut voir.</p>
+
+  <div class="lang-tabs">
+    <span class="tab active" onclick="switchLang('fr',this)">🇫🇷 Français</span>
+    <span class="tab"        onclick="switchLang('en',this)">🇬🇧 English</span>
+    <span class="tab"        onclick="switchLang('es',this)">🇪🇸 Español</span>
+  </div>
 
   <div class="badges">
-    <a class="badge" href="https://open.spotify.com" target="_blank">
-      🎵 Spotify
-    </a>
-    <a class="badge" href="https://podcasts.apple.com" target="_blank">
-      🎧 Apple Podcasts
-    </a>
-    <a class="badge" href="feed.xml" target="_blank">
-      📡 RSS Feed
-    </a>
+    <a class="badge" id="badge-spotify"  href="#" target="_blank">🎵 Spotify</a>
+    <a class="badge" id="badge-apple"    href="#" target="_blank">🎧 Apple Podcasts</a>
+    <a class="badge" id="badge-youtube"  href="https://www.youtube.com/@CeQuonTeCache" target="_blank">▶️ YouTube</a>
+    <a class="badge" id="badge-rss"      href="feed_fr.xml" target="_blank">📡 RSS</a>
   </div>
 
   <div class="rss-box">
-    RSS : <span>https://apel1968-art.github.io/podcast-feed/feed.xml</span>
+    RSS : <span id="rss-url">https://apel1968-art.github.io/podcast-feed/feed_fr.xml</span>
   </div>
 </header>
 
 <section id="episodes">
   <h2>Épisodes</h2>
-  <p id="loading" style="color:#555">Chargement des épisodes…</p>
+  <p id="loading" style="color:#444">Chargement…</p>
 </section>
 
-<footer>Propulsé par GitHub Pages · apel1968-art</footer>
+<footer>
+  Propulsé par GitHub Pages &bull;
+  <a href="https://www.youtube.com/@CeQuonTeCache" style="color:#1DB954;text-decoration:none">Ce Qu'on Te Cache</a>
+</footer>
 
 <script>
-// Charge et parse le feed.xml pour afficher les épisodes dynamiquement
-async function loadEpisodes() {
+const META = {
+  fr: {
+    title:   "Ce Qu'on Te Cache — Le Podcast",
+    desc:    "Les archives déclassifiées, les dossiers secrets, les preuves que personne ne veut voir.",
+    feed:    "feed_fr.xml",
+    rss:     "https://apel1968-art.github.io/podcast-feed/feed_fr.xml",
+    spotify: "#",  // remplacer par le lien Spotify une fois soumis
+    apple:   "#",
+    youtube: "https://www.youtube.com/@CeQuonTeCache",
+    img:     "covers/cqtc_fr.jpg",
+  },
+  en: {
+    title:   "The Truth They Hide — Podcast",
+    desc:    "Declassified archives, secret files, and the evidence nobody wants you to see.",
+    feed:    "feed_en.xml",
+    rss:     "https://apel1968-art.github.io/podcast-feed/feed_en.xml",
+    spotify: "#",
+    apple:   "#",
+    youtube: "https://www.youtube.com/@TheTruthTheyHide",
+    img:     "covers/tth_en.jpg",
+  },
+  es: {
+    title:   "Lo Que Te Ocultan — El Podcast",
+    desc:    "Archivos desclasificados, expedientes secretos y las pruebas que nadie quiere que veas.",
+    feed:    "feed_es.xml",
+    rss:     "https://apel1968-art.github.io/podcast-feed/feed_es.xml",
+    spotify: "#",
+    apple:   "#",
+    youtube: "https://www.youtube.com/channel/UCflBDz7jIOaI68IWRK181sA",
+    img:     "covers/lqto_es.jpg",
+  },
+};
+
+let currentLang = "fr";
+
+function switchLang(lang, tabEl) {
+  currentLang = lang;
+  document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+  tabEl.classList.add("active");
+
+  const m = META[lang];
+  document.getElementById("pod-title").textContent = m.title;
+  document.getElementById("pod-desc").textContent  = m.desc;
+  document.getElementById("rss-url").textContent   = m.rss;
+  document.getElementById("badge-rss").href        = m.feed;
+  document.getElementById("badge-spotify").href    = m.spotify;
+  document.getElementById("badge-apple").href      = m.apple;
+  document.getElementById("badge-youtube").href    = m.youtube;
+  document.querySelector("header img").src         = m.img;
+  document.title = m.title;
+
+  loadEpisodes(m.feed);
+}
+
+async function loadEpisodes(feedFile) {
+  const container = document.getElementById("episodes");
+  const h2 = container.querySelector("h2");
+  container.innerHTML = "";
+  container.appendChild(h2);
+
+  const loading = document.createElement("p");
+  loading.id = "loading";
+  loading.style.color = "#444";
+  loading.textContent = "Chargement…";
+  container.appendChild(loading);
+
   try {
-    const res  = await fetch("feed.xml");
+    const res  = await fetch(feedFile + "?t=" + Date.now());
     const text = await res.text();
     const xml  = new DOMParser().parseFromString(text, "text/xml");
     const items = [...xml.querySelectorAll("item")];
 
-    const container = document.getElementById("episodes");
-    document.getElementById("loading").remove();
+    loading.remove();
 
     if (!items.length) {
-      container.innerHTML += '<p style="color:#555">Aucun épisode pour l\'instant.</p>';
+      container.innerHTML += '<p style="color:#444">Aucun épisode pour l\'instant.</p>';
       return;
     }
 
@@ -132,21 +195,25 @@ async function loadEpisodes() {
       const desc    = item.querySelector("description")?.textContent || "";
       const url     = item.querySelector("enclosure")?.getAttribute("url") || "";
       const pubDate = item.querySelector("pubDate")?.textContent || "";
-      const date    = pubDate ? new Date(pubDate).toLocaleDateString("fr-FR") : "";
+      const epNum   = item.querySelector("episode")?.textContent || "";
+      const dur     = item.querySelector("duration")?.textContent || "";
+      const date    = pubDate ? new Date(pubDate).toLocaleDateString("fr-FR", {year:"numeric",month:"long",day:"numeric"}) : "";
 
       container.innerHTML += `
         <div class="episode">
+          ${epNum ? `<div class="ep-num">Épisode ${epNum}</div>` : ""}
           <h3>${title}</h3>
-          <p class="meta">${date}</p>
-          <p style="font-size:.9rem;color:#aaa;margin-top:.4rem">${desc}</p>
+          <p>${desc}</p>
           ${url ? `<audio controls preload="none" src="${url}"></audio>` : ""}
+          <div class="meta">${date}${dur ? " · " + dur : ""}</div>
         </div>`;
     });
   } catch(e) {
-    document.getElementById("loading").textContent = "Impossible de charger les épisodes.";
+    loading.textContent = "Impossible de charger les épisodes.";
   }
 }
-loadEpisodes();
+
+loadEpisodes(META[currentLang].feed);
 </script>
 
 </body>
