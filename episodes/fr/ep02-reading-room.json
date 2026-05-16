@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-cia_2026-002",
+    "lang":  "fr",
+    "series":  "CIA_2026",
+    "season":  1,
+    "episode_number":  2,
+    "slug":  "reading-room",
+    "title":  "Ce que la CIA a brûlé — les dossiers qu\u0027ils ont voulu effacer pour toujours",
+    "description":  "Ce que la CIA a brûlé — les dossiers qu\u0027ils ont voulu effacer pour toujours",
+    "published_at":  "2026-05-16T01:53:51.3975378Z",
+    "duration_seconds":  254,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E02_reading-room.mp3",
+    "audio_size_bytes":  2203582,
+    "youtube_url":  "https://youtu.be/HgtInKCkjQA",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

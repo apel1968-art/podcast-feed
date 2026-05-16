@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-cia_2026-002",
+    "lang":  "fr",
+    "series":  "CIA_2026",
+    "season":  1,
+    "episode_number":  2,
+    "slug":  "mkultra",
+    "title":  "Ce que la CIA a brûlé — les dossiers qu\u0027ils ont voulu effacer pour toujours",
+    "description":  "Ce que la CIA a brûlé — les dossiers qu\u0027ils ont voulu effacer pour toujours",
+    "published_at":  "2026-05-01T04:00:03.0000000Z",
+    "duration_seconds":  170,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E02_mkultra.mp3",
+    "audio_size_bytes":  2505045,
+    "youtube_url":  "https://youtu.be/HgtInKCkjQA",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}
