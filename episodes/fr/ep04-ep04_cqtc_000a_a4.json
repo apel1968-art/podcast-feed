@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260504-001-004",
-    "lang":  "fr",
-    "series":  "SERIE_20260504_001",
-    "season":  1,
-    "episode_number":  4,
-    "slug":  "ep04_cqtc_000a_a4",
-    "title":  "Comment le Mossad influence les médias — opérations de désinformation documentées",
-    "description":  "Comment le Mossad influence les médias — opérations de désinformation documentées",
-    "published_at":  "2026-05-09T03:15:50.0000000Z",
-    "duration_seconds":  444,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E04_ep04_cqtc_000a_a4.mp3",
-    "audio_size_bytes":  5466243,
-    "youtube_url":  "https://youtu.be/gezI7zpJ3jg",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260504-001-004",
+  "lang": "fr",
+  "series": "SERIE_20260504_001",
+  "season": 1,
+  "episode_number": 4,
+  "slug": "ep04_cqtc_000a_a4",
+  "title": "Mossad · Comment le Mossad influence les médias — opérations de désinformation documentées",
+  "description": "Mossad · Comment le Mossad influence les médias — opérations de désinformation documentées",
+  "published_at": "2026-05-09T03:15:50Z",
+  "duration_seconds": 444,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E04_ep04_cqtc_000a_a4.mp3",
+  "audio_size_bytes": 5466243,
+  "youtube_url": "https://youtu.be/gezI7zpJ3jg",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

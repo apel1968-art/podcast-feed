@@ -29,9 +29,633 @@
     <itunes:type>episodic</itunes:type>
 
     <item>
-      <title>Ce qu’on ne t’a jamais dit</title>
+      <title>CIA Archives · La méthode — comment lire ce qu'on préfèrerait que tu ignores</title>
+      <description>CIA Archives · La méthode — comment lire ce qu'on préfèrerait que tu ignores</description>
+      <pubDate>Sun, 03 May 2026 17:21:55 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E06_heritage.mp3" length="4343180" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia_2026-006</guid>
+      <itunes:duration>00:05:47</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>JFK · Un nom de haut gradé CIA apparaît, mais sa page est entièrement effacée.</title>
+      <description>JFK · Un nom de haut gradé CIA apparaît, mais sa page est entièrement effacée.</description>
+      <pubDate>Fri, 15 May 2026 16:01:38 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-005/E06_ep06_cqtc_003_a6.mp3" length="7686341" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-005-006</guid>
+      <itunes:duration>00:12:47</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Station MOL · De MOL aux satellites espions d'aujourd'hui — la technologie secrète qui surveille encore la Terre</title>
+      <description>Station MOL · De MOL aux satellites espions d'aujourd'hui — la technologie secrète qui surveille encore la Terre</description>
+      <pubDate>Sun, 10 May 2026 17:24:44 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E06_ep06_cqtc_001_a6.mp3" length="5692677" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260507-003-006</guid>
+      <itunes:duration>00:07:33</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Mossad · Stuxnet, Pegasus, Flame — les cyberarmes du Mossad dans les documents déclassifiés</title>
+      <description>Mossad · Stuxnet, Pegasus, Flame — les cyberarmes du Mossad dans les documents déclassifiés</description>
+      <pubDate>Sat, 09 May 2026 09:03:04 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E06_ep06_cqtc_000a_a6.mp3" length="6716517" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-001-006</guid>
+      <itunes:duration>00:09:01</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives S2 · Iran 1953, Guatemala 1954 — les coups d'état que la CIA a officiellement admis</title>
+      <description>CIA Archives S2 · Iran 1953, Guatemala 1954 — les coups d'état que la CIA a officiellement admis</description>
+      <pubDate>Wed, 06 May 2026 12:33:21 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E06_coups.mp3" length="2026574" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia-2026-s2-006</guid>
+      <itunes:duration>00:02:05</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Ottawa Confidentiel · Les pensionnats — les expériences nutritionnelles que le gouvernement a cachées pendant 70 ans</title>
+      <description>Ottawa Confidentiel · Les pensionnats — les expériences nutritionnelles que le gouvernement a cachées pendant 70 ans</description>
+      <pubDate>Mon, 04 May 2026 20:12:57 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E06_autochtones.mp3" length="3773333" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-ottawa-confidentiel-2026-006</guid>
+      <itunes:duration>00:06:27</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives · Ils te surveillent — Snowden, WikiLeaks et les preuves que personne ne veut voir</title>
+      <description>CIA Archives · Ils te surveillent — Snowden, WikiLeaks et les preuves que personne ne veut voir</description>
+      <pubDate>Sun, 03 May 2026 16:00:30 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E05_wikileaks.mp3" length="4597499" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia_2026-005</guid>
+      <itunes:duration>00:06:13</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Ottawa Confidentiel · L'Affaire Gouzenko — le défecteur qui a changé la Guerre froide depuis Ottawa</title>
+      <description>Ottawa Confidentiel · L'Affaire Gouzenko — le défecteur qui a changé la Guerre froide depuis Ottawa</description>
+      <pubDate>Mon, 11 May 2026 16:01:34 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E05_gouzenko.mp3" length="4166859" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-ottawa-confidentiel-2026-005</guid>
+      <itunes:duration>00:06:22</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>JFK · 147 pages des docs 2025 sont censurées, motifs jugés non fondés.</title>
+      <description>JFK · 147 pages des docs 2025 sont censurées, motifs jugés non fondés.</description>
+      <pubDate>Fri, 15 May 2026 16:30:43 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-005/E05_ep05_cqtc_003_a5.mp3" length="6938299" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-005-005</guid>
+      <itunes:duration>00:10:08</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Station MOL · Annulé 40 jours avant Apollo 11 — les documents encore classifiés de MOL</title>
+      <description>Station MOL · Annulé 40 jours avant Apollo 11 — les documents encore classifiés de MOL</description>
+      <pubDate>Fri, 15 May 2026 16:30:33 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E05_ep05_cqtc_001_a5.mp3" length="5742135" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260507-003-005</guid>
+      <itunes:duration>00:08:17</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Stargate · Programmes psi gouvernementaux — quand le renseignement finance des décennies de pseudoscience</title>
+      <description>Stargate · Programmes psi gouvernementaux — quand le renseignement finance des décennies de pseudoscience</description>
+      <pubDate>Wed, 13 May 2026 16:03:57 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E05_ep05_cqtc_000b_a5.mp3" length="6142594" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-002-005</guid>
+      <itunes:duration>00:08:51</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Mossad · L'Unité 8200 — la division cyber du Mossad que Tel Aviv ne reconnaît pas officiellement</title>
+      <description>Mossad · L'Unité 8200 — la division cyber du Mossad que Tel Aviv ne reconnaît pas officiellement</description>
+      <pubDate>Sat, 09 May 2026 03:16:36 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E05_ep05_cqtc_000a_a5.mp3" length="5369975" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-001-005</guid>
+      <itunes:duration>00:07:14</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives S2 · Opération CHAOS — la CIA espionnait les Américains sur leur propre sol</title>
+      <description>CIA Archives S2 · Opération CHAOS — la CIA espionnait les Américains sur leur propre sol</description>
+      <pubDate>Wed, 06 May 2026 12:32:51 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E05_chaos.mp3" length="2653037" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia-2026-s2-005</guid>
+      <itunes:duration>00:03:06</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Ottawa Confidentiel · La GRC dans l'ombre — cambriolages, surveillance et la Commission McDonald</title>
+      <description>Ottawa Confidentiel · La GRC dans l'ombre — cambriolages, surveillance et la Commission McDonald</description>
+      <pubDate>Mon, 04 May 2026 20:11:27 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E04_rcmp.mp3" length="4415688" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-ottawa-confidentiel-2026-004</guid>
+      <itunes:duration>00:06:12</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives · Les archives du Vatican — des siècles de documents qu'on n'est pas supposé lire</title>
+      <description>CIA Archives · Les archives du Vatican — des siècles de documents qu'on n'est pas supposé lire</description>
+      <pubDate>Sun, 03 May 2026 17:17:52 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E04_mockingbird.mp3" length="4742516" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia_2026-004</guid>
+      <itunes:duration>00:06:19</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Watergate · Certains disent Nixon n’était pas le cerveau. Des archives prouvent le contraire.</title>
+      <description>Watergate · Certains disent Nixon n’était pas le cerveau. Des archives prouvent le contraire.</description>
+      <pubDate>Sat, 09 May 2026 09:04:14 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E04_ep04_cqtc_004_a4.mp3" length="6823882" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-006-004</guid>
+      <itunes:duration>00:10:01</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>MK-Ultra · La peur d'un monde monopolis� par les USA. Une puissance qui fait peur.</title>
+      <description>MK-Ultra · La peur d'un monde monopolis� par les USA. Une puissance qui fait peur.</description>
+      <pubDate>Sat, 09 May 2026 09:06:07 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E04_ep04_cqtc_002_a4.mp3" length="5671246" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-004-004</guid>
+      <itunes:duration>00:08:27</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Station MOL · La guerre cachée NASA vs USAF — deux agences, un budget, et un programme devait disparaître</title>
+      <description>Station MOL · La guerre cachée NASA vs USAF — deux agences, un budget, et un programme devait disparaître</description>
+      <pubDate>Wed, 13 May 2026 16:01:55 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E04_ep04_cqtc_001_a4.mp3" length="5585613" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260507-003-004</guid>
+      <itunes:duration>00:08:35</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Stargate · 13 ans d'expériences psychiques — les protocoles, les sujets et pourquoi rien n'a fonctionné</title>
+      <description>Stargate · 13 ans d'expériences psychiques — les protocoles, les sujets et pourquoi rien n'a fonctionné</description>
+      <pubDate>Fri, 15 May 2026 16:30:12 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E04_ep04_cqtc_000b_a4.mp3" length="6343194" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-002-004</guid>
+      <itunes:duration>00:08:56</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Mossad · Comment le Mossad influence les médias — opérations de désinformation documentées</title>
+      <description>Mossad · Comment le Mossad influence les médias — opérations de désinformation documentées</description>
+      <pubDate>Sat, 09 May 2026 03:15:50 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E04_ep04_cqtc_000a_a4.mp3" length="5466243" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-001-004</guid>
+      <itunes:duration>00:07:24</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives S2 · Le Comité Church — quand le Congrès a découvert les crimes de la CIA</title>
+      <description>CIA Archives S2 · Le Comité Church — quand le Congrès a découvert les crimes de la CIA</description>
+      <pubDate>Wed, 06 May 2026 12:32:14 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E04_church.mp3" length="3033682" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia-2026-s2-004</guid>
+      <itunes:duration>00:02:57</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Ottawa Confidentiel · La Crise d'Octobre — 497 arrestations sans mandat et les documents qu'Ottawa préfère oublier</title>
+      <description>Ottawa Confidentiel · La Crise d'Octobre — 497 arrestations sans mandat et les documents qu'Ottawa préfère oublier</description>
+      <pubDate>Mon, 04 May 2026 20:10:41 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E03_octobre70.mp3" length="3929339" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-ottawa-confidentiel-2026-003</guid>
+      <itunes:duration>00:06:23</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives S2 · Opération Mockingbird — la CIA dans les salles de rédaction</title>
+      <description>CIA Archives S2 · Opération Mockingbird — la CIA dans les salles de rédaction</description>
+      <pubDate>Tue, 05 May 2026 20:49:13 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E03_mockingbird.mp3" length="2219725" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia-2026-s2-003</guid>
+      <itunes:duration>00:02:35</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives · OVNI — ce que les gouvernements ont officiellement admis (et ce qu'ils taisent encore)</title>
+      <description>CIA Archives · OVNI — ce que les gouvernements ont officiellement admis (et ce qu'ils taisent encore)</description>
+      <pubDate>Sun, 03 May 2026 17:17:08 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E03_jfk.mp3" length="4828631" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia_2026-003</guid>
+      <itunes:duration>00:07:28</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Watergate · Version populaire : un cambriolage banal. Analyse : un réseau d’espionnage politique.</title>
+      <description>Watergate · Version populaire : un cambriolage banal. Analyse : un réseau d’espionnage politique.</description>
+      <pubDate>Wed, 13 May 2026 16:05:10 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E03_ep03_cqtc_004_a3.mp3" length="6449200" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-006-003</guid>
+      <itunes:duration>00:09:24</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>JFK · La thèse de la CIA commanditaire a des preuves, mais pas de preuves définitives.</title>
+      <description>JFK · La thèse de la CIA commanditaire a des preuves, mais pas de preuves définitives.</description>
+      <pubDate>Thu, 14 May 2026 14:30:19 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-005/E03_ep03_cqtc_003_a3.mp3" length="6632738" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-005-003</guid>
+      <itunes:duration>00:09:20</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>MK-Ultra · Les preuves la contredisent � moiti�. Il y a une raison pour cela.</title>
+      <description>MK-Ultra · Les preuves la contredisent � moiti�. Il y a une raison pour cela.</description>
+      <pubDate>Thu, 14 May 2026 14:29:55 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E03_ep03_cqtc_002_a3.mp3" length="6067332" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-004-003</guid>
+      <itunes:duration>00:09:34</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Station MOL · Le Dorian : la caméra secrète à 50 cm de résolution que l'URSS ne devait jamais découvrir</title>
+      <description>Station MOL · Le Dorian : la caméra secrète à 50 cm de résolution que l'URSS ne devait jamais découvrir</description>
+      <pubDate>Sat, 09 May 2026 09:05:12 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E03_ep03_cqtc_001_a3.mp3" length="5799791" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260507-003-003</guid>
+      <itunes:duration>00:08:22</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Stargate · Projet Stargate — 20 millions de dollars pour prouver la voyance. Ce que les docs révèlent.</title>
+      <description>Stargate · Projet Stargate — 20 millions de dollars pour prouver la voyance. Ce que les docs révèlent.</description>
+      <pubDate>Sun, 10 May 2026 17:25:50 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E03_ep03_cqtc_000b_a3.mp3" length="6219478" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-002-003</guid>
+      <itunes:duration>00:09:30</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Mossad et KGB — les documents qui suggèrent une coopération secrète pendant la Guerre froide</title>
+      <description>Mossad et KGB — les documents qui suggèrent une coopération secrète pendant la Guerre froide</description>
+      <pubDate>Sat, 09 May 2026 03:15:02 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E03_ep03_cqtc_000a_a3.mp3" length="5245676" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-001-003</guid>
+      <itunes:duration>00:07:17</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives · Ce que la CIA a brûlé — les dossiers qu'ils ont voulu effacer pour toujours</title>
+      <description>CIA Archives · Ce que la CIA a brûlé — les dossiers qu'ils ont voulu effacer pour toujours</description>
+      <pubDate>Sat, 16 May 2026 01:53:51 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E02_reading-room.mp3" length="2203582" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia_2026-002</guid>
+      <itunes:duration>00:04:14</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives · Ce que la CIA a brûlé — les dossiers qu'ils ont voulu effacer pour toujours</title>
+      <description>CIA Archives · Ce que la CIA a brûlé — les dossiers qu'ils ont voulu effacer pour toujours</description>
+      <pubDate>Fri, 01 May 2026 04:00:03 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E02_mkultra.mp3" length="2505045" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia_2026-002</guid>
+      <itunes:duration>00:02:50</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Watergate · Les enregistrements Oval Office prouvent la culpabilité. Nixon a tenté de les effacer.</title>
+      <description>Watergate · Les enregistrements Oval Office prouvent la culpabilité. Nixon a tenté de les effacer.</description>
+      <pubDate>Thu, 14 May 2026 14:30:34 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E02_ep02_cqtc_004_a2.mp3" length="6751631" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-006-002</guid>
+      <itunes:duration>00:10:03</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>JFK · Oswald a rencontré un agent CIA à Mexico, 6 semaines avant l’attentat.</title>
+      <description>JFK · Oswald a rencontré un agent CIA à Mexico, 6 semaines avant l’attentat.</description>
+      <pubDate>Thu, 14 May 2026 14:30:14 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-005/E02_ep02_cqtc_003_a2.mp3" length="7355683" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-005-002</guid>
+      <itunes:duration>00:11:42</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>MK-Ultra · Le Congr�s n'�tait pas au courant. C'est un crime de l'humanit�.</title>
+      <description>MK-Ultra · Le Congr�s n'�tait pas au courant. C'est un crime de l'humanit�.</description>
+      <pubDate>Sat, 16 May 2026 01:58:43 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E02_ep02_cqtc_002_a2.mp3" length="5459430" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-004-002</guid>
+      <itunes:duration>00:09:35</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Station MOL · 17 astronautes militaires pour une mission dont personne ne devait parler</title>
+      <description>Station MOL · 17 astronautes militaires pour une mission dont personne ne devait parler</description>
+      <pubDate>Fri, 15 May 2026 16:30:23 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E02_ep02_cqtc_001_a2.mp3" length="7365054" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260507-003-002</guid>
+      <itunes:duration>00:09:47</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Stargate · Les OVNIs comme couverture — comment la CIA cachait ses programmes derrière les ovnis</title>
+      <description>Stargate · Les OVNIs comme couverture — comment la CIA cachait ses programmes derrière les ovnis</description>
+      <pubDate>Sun, 10 May 2026 17:23:41 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E02_ep02_cqtc_000b_a2.mp3" length="5588682" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-002-002</guid>
+      <itunes:duration>00:08:23</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Mossad · 40 agents du Mossad en territoire hostile — les missions que personne n'a confirmées officiellement</title>
+      <description>Mossad · 40 agents du Mossad en territoire hostile — les missions que personne n'a confirmées officiellement</description>
+      <pubDate>Fri, 08 May 2026 05:29:53 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E02_ep02_cqtc_000a_a2.mp3" length="4429531" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-001-002</guid>
+      <itunes:duration>00:06:19</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives S2 · COINTELPRO — le FBI espionnait Martin Luther King et voulait le détruire</title>
+      <description>CIA Archives S2 · COINTELPRO — le FBI espionnait Martin Luther King et voulait le détruire</description>
+      <pubDate>Tue, 05 May 2026 20:37:23 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E02_cointelpro.mp3" length="3474991" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia-2026-s2-002</guid>
+      <itunes:duration>00:03:34</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Ottawa Confidentiel · Le Dr. Cameron — les expériences secrètes financées par la CIA à Montréal</title>
+      <description>Ottawa Confidentiel · Le Dr. Cameron — les expériences secrètes financées par la CIA à Montréal</description>
+      <pubDate>Mon, 04 May 2026 16:00:32 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E02_cameron.mp3" length="4947647" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-ottawa-confidentiel-2026-002</guid>
+      <itunes:duration>00:06:47</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives S2 · Opération Paperclip — comment les USA ont recruté 1600 nazis après 1945</title>
+      <description>CIA Archives S2 · Opération Paperclip — comment les USA ont recruté 1600 nazis après 1945</description>
+      <pubDate>Tue, 05 May 2026 11:39:26 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E01_paperclip.mp3" length="2509038" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-cia-2026-s2-001</guid>
+      <itunes:duration>00:02:25</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Ottawa Confidentiel · Ce que la Loi sur l'accès à l'information ne te montrera jamais</title>
+      <description>Ottawa Confidentiel · Ce que la Loi sur l'accès à l'information ne te montrera jamais</description>
+      <pubDate>Sun, 03 May 2026 23:35:05 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E01_intro.mp3" length="5287218" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-ottawa-confidentiel-2026-001</guid>
+      <itunes:duration>00:06:34</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Watergate · 17 juin 1972 : 5 hommes arrêtés au DNC. Ils travaillaient pour Nixon.</title>
+      <description>Watergate · 17 juin 1972 : 5 hommes arrêtés au DNC. Ils travaillaient pour Nixon.</description>
+      <pubDate>Sat, 16 May 2026 01:59:06 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E01_ep01_cqtc_004_a1.mp3" length="5311238" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-006-001</guid>
+      <itunes:duration>00:09:25</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>JFK · 3 coups de feu confirmés, mais un tir non répertorié par la Commission Warren.</title>
+      <description>JFK · 3 coups de feu confirmés, mais un tir non répertorié par la Commission Warren.</description>
+      <pubDate>Sun, 10 May 2026 17:22:58 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-005/E01_ep01_cqtc_003_a1.mp3" length="6258562" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-005-001</guid>
+      <itunes:duration>00:08:46</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>MK-Ultra · 20 000 pages survivantes. La CIA a br�l� le reste en 1973.</title>
+      <description>MK-Ultra · 20 000 pages survivantes. La CIA a br�l� le reste en 1973.</description>
+      <pubDate>Sat, 09 May 2026 09:07:02 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E01_ep01_cqtc_002_a1.mp3" length="5140403" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260508-004-001</guid>
+      <itunes:duration>00:06:57</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Station MOL · Le programme fantôme — le Pentagone avait sa propre station spatiale depuis 1963</title>
+      <description>Station MOL · Le programme fantôme — le Pentagone avait sa propre station spatiale depuis 1963</description>
+      <pubDate>Mon, 11 May 2026 16:03:24 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E01_ep01_cqtc_001_a1.mp3" length="5640224" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260507-003-001</guid>
+      <itunes:duration>00:08:08</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Stargate · 195 séances d'hypnose, zéro résultat — le programme secret de la CIA avant Stargate</title>
+      <description>Stargate · 195 séances d'hypnose, zéro résultat — le programme secret de la CIA avant Stargate</description>
+      <pubDate>Sun, 10 May 2026 17:22:06 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E01_ep01_cqtc_000b_a1.mp3" length="5275966" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-002-001</guid>
+      <itunes:duration>00:07:53</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>Mossad · Le Mossad — 12 assassinats ciblés dont les commanditaires n'ont jamais comparu</title>
+      <description>Mossad · Le Mossad — 12 assassinats ciblés dont les commanditaires n'ont jamais comparu</description>
+      <pubDate>Sat, 09 May 2026 10:11:18 +0000</pubDate>
+      <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E01_ep01_cqtc_000a_a1.mp3" length="5377068" type="audio/mpeg"/>
+      <guid isPermaLink="false">cqtc-fr-serie-20260504-001-001</guid>
+      <itunes:duration>00:06:51</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:keywords>CIA, dossiers secrets, histoire, espionnage</itunes:keywords>
+      <itunes:image href="https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg"/>
+    </item>
+    <item>
+      <title>CIA Archives · Ce qu’on ne t’a jamais dit</title>
       <description>Il existe des documents officiels, des archives déclassifiées, des aveux gouvernementaux. Tout est là, accessible. Mais personne n’en parle. Pourquoi ? Premier épisode de la série CIA — introduction à la méthode et aux sources primaires.</description>
-      <pubDate>Thu, 30 Apr 2026 22:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Apr 2026 18:00:00 -0400</pubDate>
       <enclosure url="https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia2026-s1/E01_declassification.mp3" length="5520873" type="audio/mpeg"/>
       <guid isPermaLink="false">cqtc-fr-cia2026-001</guid>
       <itunes:duration>00:08:51</itunes:duration>

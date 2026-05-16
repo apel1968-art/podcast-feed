@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-cia_2026-004",
-    "lang":  "fr",
-    "series":  "CIA_2026",
-    "season":  1,
-    "episode_number":  4,
-    "slug":  "mockingbird",
-    "title":  "Les archives du Vatican — des siècles de documents qu\u0027on n\u0027est pas supposé lire",
-    "description":  "Les archives du Vatican — des siècles de documents qu\u0027on n\u0027est pas supposé lire",
-    "published_at":  "2026-05-03T17:17:52.0000000Z",
-    "duration_seconds":  379,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E04_mockingbird.mp3",
-    "audio_size_bytes":  4742516,
-    "youtube_url":  "https://youtu.be/g7jQXWPKLmM",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-cia_2026-004",
+  "lang": "fr",
+  "series": "CIA_2026",
+  "season": 1,
+  "episode_number": 4,
+  "slug": "mockingbird",
+  "title": "CIA Archives · Les archives du Vatican — des siècles de documents qu'on n'est pas supposé lire",
+  "description": "CIA Archives · Les archives du Vatican — des siècles de documents qu'on n'est pas supposé lire",
+  "published_at": "2026-05-03T17:17:52Z",
+  "duration_seconds": 379,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E04_mockingbird.mp3",
+  "audio_size_bytes": 4742516,
+  "youtube_url": "https://youtu.be/g7jQXWPKLmM",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

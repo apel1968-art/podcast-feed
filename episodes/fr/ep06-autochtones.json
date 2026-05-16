@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-ottawa-confidentiel-2026-006",
-    "lang":  "fr",
-    "series":  "OTTAWA_CONFIDENTIEL_2026",
-    "season":  1,
-    "episode_number":  6,
-    "slug":  "autochtones",
-    "title":  "Les pensionnats — les expériences nutritionnelles que le gouvernement a cachées pendant 70 ans",
-    "description":  "Les pensionnats — les expériences nutritionnelles que le gouvernement a cachées pendant 70 ans",
-    "published_at":  "2026-05-04T20:12:57.0000000Z",
-    "duration_seconds":  387,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E06_autochtones.mp3",
-    "audio_size_bytes":  3773333,
-    "youtube_url":  "",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-ottawa-confidentiel-2026-006",
+  "lang": "fr",
+  "series": "OTTAWA_CONFIDENTIEL_2026",
+  "season": 1,
+  "episode_number": 6,
+  "slug": "autochtones",
+  "title": "Ottawa Confidentiel · Les pensionnats — les expériences nutritionnelles que le gouvernement a cachées pendant 70 ans",
+  "description": "Ottawa Confidentiel · Les pensionnats — les expériences nutritionnelles que le gouvernement a cachées pendant 70 ans",
+  "published_at": "2026-05-04T20:12:57Z",
+  "duration_seconds": 387,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E06_autochtones.mp3",
+  "audio_size_bytes": 3773333,
+  "youtube_url": "",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

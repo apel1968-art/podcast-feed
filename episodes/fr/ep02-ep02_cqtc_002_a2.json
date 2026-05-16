@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260508-004-002",
-    "lang":  "fr",
-    "series":  "SERIE_20260508_004",
-    "season":  1,
-    "episode_number":  2,
-    "slug":  "ep02_cqtc_002_a2",
-    "title":  "Le Congr�s n\u0027�tait pas au courant. C\u0027est un crime de l\u0027humanit�.",
-    "description":  "Le Congr�s n\u0027�tait pas au courant. C\u0027est un crime de l\u0027humanit�.",
-    "published_at":  "2026-05-16T01:58:43.3285118Z",
-    "duration_seconds":  575,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E02_ep02_cqtc_002_a2.mp3",
-    "audio_size_bytes":  5459430,
-    "youtube_url":  "",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260508-004-002",
+  "lang": "fr",
+  "series": "SERIE_20260508_004",
+  "season": 1,
+  "episode_number": 2,
+  "slug": "ep02_cqtc_002_a2",
+  "title": "MK-Ultra · Le Congr�s n'�tait pas au courant. C'est un crime de l'humanit�.",
+  "description": "MK-Ultra · Le Congr�s n'�tait pas au courant. C'est un crime de l'humanit�.",
+  "published_at": "2026-05-16T01:58:43.3285118Z",
+  "duration_seconds": 575,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E02_ep02_cqtc_002_a2.mp3",
+  "audio_size_bytes": 5459430,
+  "youtube_url": "",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

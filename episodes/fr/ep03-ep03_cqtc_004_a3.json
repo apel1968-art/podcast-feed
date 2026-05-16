@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260508-006-003",
-    "lang":  "fr",
-    "series":  "SERIE_20260508_006",
-    "season":  1,
-    "episode_number":  3,
-    "slug":  "ep03_cqtc_004_a3",
-    "title":  "Version populaire : un cambriolage banal. Analyse : un réseau d’espionnage politique.",
-    "description":  "Version populaire : un cambriolage banal. Analyse : un réseau d’espionnage politique.",
-    "published_at":  "2026-05-13T16:05:10.0000000Z",
-    "duration_seconds":  564,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E03_ep03_cqtc_004_a3.mp3",
-    "audio_size_bytes":  6449200,
-    "youtube_url":  "https://youtu.be/nQHeSiwW_i0",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260508-006-003",
+  "lang": "fr",
+  "series": "SERIE_20260508_006",
+  "season": 1,
+  "episode_number": 3,
+  "slug": "ep03_cqtc_004_a3",
+  "title": "Watergate · Version populaire : un cambriolage banal. Analyse : un réseau d’espionnage politique.",
+  "description": "Watergate · Version populaire : un cambriolage banal. Analyse : un réseau d’espionnage politique.",
+  "published_at": "2026-05-13T16:05:10Z",
+  "duration_seconds": 564,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E03_ep03_cqtc_004_a3.mp3",
+  "audio_size_bytes": 6449200,
+  "youtube_url": "https://youtu.be/nQHeSiwW_i0",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

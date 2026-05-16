@@ -49,7 +49,7 @@ def load_episodes(lang: str) -> list:
     episodes = []
     for path in glob.glob(pattern):
         try:
-            with open(path, encoding="utf-8") as f:
+            with open(path, encoding="utf-8-sig") as f:
                 ep = json.load(f)
             ep["_path"] = path
             episodes.append(ep)

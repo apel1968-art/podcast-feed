@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260507-003-004",
-    "lang":  "fr",
-    "series":  "SERIE_20260507_003",
-    "season":  1,
-    "episode_number":  4,
-    "slug":  "ep04_cqtc_001_a4",
-    "title":  "La guerre cachée NASA vs USAF — deux agences, un budget, et un programme devait disparaître",
-    "description":  "La guerre cachée NASA vs USAF — deux agences, un budget, et un programme devait disparaître",
-    "published_at":  "2026-05-13T16:01:55.0000000Z",
-    "duration_seconds":  515,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E04_ep04_cqtc_001_a4.mp3",
-    "audio_size_bytes":  5585613,
-    "youtube_url":  "https://youtu.be/8hMhN4pROQI",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260507-003-004",
+  "lang": "fr",
+  "series": "SERIE_20260507_003",
+  "season": 1,
+  "episode_number": 4,
+  "slug": "ep04_cqtc_001_a4",
+  "title": "Station MOL · La guerre cachée NASA vs USAF — deux agences, un budget, et un programme devait disparaître",
+  "description": "Station MOL · La guerre cachée NASA vs USAF — deux agences, un budget, et un programme devait disparaître",
+  "published_at": "2026-05-13T16:01:55Z",
+  "duration_seconds": 515,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E04_ep04_cqtc_001_a4.mp3",
+  "audio_size_bytes": 5585613,
+  "youtube_url": "https://youtu.be/8hMhN4pROQI",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

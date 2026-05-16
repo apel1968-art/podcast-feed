@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260504-001-006",
-    "lang":  "fr",
-    "series":  "SERIE_20260504_001",
-    "season":  1,
-    "episode_number":  6,
-    "slug":  "ep06_cqtc_000a_a6",
-    "title":  "Stuxnet, Pegasus, Flame — les cyberarmes du Mossad dans les documents déclassifiés",
-    "description":  "Stuxnet, Pegasus, Flame — les cyberarmes du Mossad dans les documents déclassifiés",
-    "published_at":  "2026-05-09T09:03:04.0000000Z",
-    "duration_seconds":  541,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E06_ep06_cqtc_000a_a6.mp3",
-    "audio_size_bytes":  6716517,
-    "youtube_url":  "https://youtu.be/iPMlwjs8RRQ",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260504-001-006",
+  "lang": "fr",
+  "series": "SERIE_20260504_001",
+  "season": 1,
+  "episode_number": 6,
+  "slug": "ep06_cqtc_000a_a6",
+  "title": "Mossad · Stuxnet, Pegasus, Flame — les cyberarmes du Mossad dans les documents déclassifiés",
+  "description": "Mossad · Stuxnet, Pegasus, Flame — les cyberarmes du Mossad dans les documents déclassifiés",
+  "published_at": "2026-05-09T09:03:04Z",
+  "duration_seconds": 541,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E06_ep06_cqtc_000a_a6.mp3",
+  "audio_size_bytes": 6716517,
+  "youtube_url": "https://youtu.be/iPMlwjs8RRQ",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

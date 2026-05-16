@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260508-005-001",
-    "lang":  "fr",
-    "series":  "SERIE_20260508_005",
-    "season":  1,
-    "episode_number":  1,
-    "slug":  "ep01_cqtc_003_a1",
-    "title":  "3 coups de feu confirmés, mais un tir non répertorié par la Commission Warren.",
-    "description":  "3 coups de feu confirmés, mais un tir non répertorié par la Commission Warren.",
-    "published_at":  "2026-05-10T17:22:58.0000000Z",
-    "duration_seconds":  526,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-005/E01_ep01_cqtc_003_a1.mp3",
-    "audio_size_bytes":  6258562,
-    "youtube_url":  "https://youtu.be/_DWnHxusTGk",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260508-005-001",
+  "lang": "fr",
+  "series": "SERIE_20260508_005",
+  "season": 1,
+  "episode_number": 1,
+  "slug": "ep01_cqtc_003_a1",
+  "title": "JFK · 3 coups de feu confirmés, mais un tir non répertorié par la Commission Warren.",
+  "description": "JFK · 3 coups de feu confirmés, mais un tir non répertorié par la Commission Warren.",
+  "published_at": "2026-05-10T17:22:58Z",
+  "duration_seconds": 526,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-005/E01_ep01_cqtc_003_a1.mp3",
+  "audio_size_bytes": 6258562,
+  "youtube_url": "https://youtu.be/_DWnHxusTGk",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260504-002-005",
-    "lang":  "fr",
-    "series":  "SERIE_20260504_002",
-    "season":  1,
-    "episode_number":  5,
-    "slug":  "ep05_cqtc_000b_a5",
-    "title":  "Programmes psi gouvernementaux — quand le renseignement finance des décennies de pseudoscience",
-    "description":  "Programmes psi gouvernementaux — quand le renseignement finance des décennies de pseudoscience",
-    "published_at":  "2026-05-13T16:03:57.0000000Z",
-    "duration_seconds":  531,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E05_ep05_cqtc_000b_a5.mp3",
-    "audio_size_bytes":  6142594,
-    "youtube_url":  "https://youtu.be/_4YTiowLii4",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260504-002-005",
+  "lang": "fr",
+  "series": "SERIE_20260504_002",
+  "season": 1,
+  "episode_number": 5,
+  "slug": "ep05_cqtc_000b_a5",
+  "title": "Stargate · Programmes psi gouvernementaux — quand le renseignement finance des décennies de pseudoscience",
+  "description": "Stargate · Programmes psi gouvernementaux — quand le renseignement finance des décennies de pseudoscience",
+  "published_at": "2026-05-13T16:03:57Z",
+  "duration_seconds": 531,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E05_ep05_cqtc_000b_a5.mp3",
+  "audio_size_bytes": 6142594,
+  "youtube_url": "https://youtu.be/_4YTiowLii4",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-ottawa-confidentiel-2026-003",
-    "lang":  "fr",
-    "series":  "OTTAWA_CONFIDENTIEL_2026",
-    "season":  1,
-    "episode_number":  3,
-    "slug":  "octobre70",
-    "title":  "La Crise d\u0027Octobre — 497 arrestations sans mandat et les documents qu\u0027Ottawa préfère oublier",
-    "description":  "La Crise d\u0027Octobre — 497 arrestations sans mandat et les documents qu\u0027Ottawa préfère oublier",
-    "published_at":  "2026-05-04T20:10:41.0000000Z",
-    "duration_seconds":  383,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E03_octobre70.mp3",
-    "audio_size_bytes":  3929339,
-    "youtube_url":  "",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-ottawa-confidentiel-2026-003",
+  "lang": "fr",
+  "series": "OTTAWA_CONFIDENTIEL_2026",
+  "season": 1,
+  "episode_number": 3,
+  "slug": "octobre70",
+  "title": "Ottawa Confidentiel · La Crise d'Octobre — 497 arrestations sans mandat et les documents qu'Ottawa préfère oublier",
+  "description": "Ottawa Confidentiel · La Crise d'Octobre — 497 arrestations sans mandat et les documents qu'Ottawa préfère oublier",
+  "published_at": "2026-05-04T20:10:41Z",
+  "duration_seconds": 383,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E03_octobre70.mp3",
+  "audio_size_bytes": 3929339,
+  "youtube_url": "",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

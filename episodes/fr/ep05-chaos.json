@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-cia-2026-s2-005",
-    "lang":  "fr",
-    "series":  "CIA_2026_S2",
-    "season":  1,
-    "episode_number":  5,
-    "slug":  "chaos",
-    "title":  "Opération CHAOS — la CIA espionnait les Américains sur leur propre sol",
-    "description":  "Opération CHAOS — la CIA espionnait les Américains sur leur propre sol",
-    "published_at":  "2026-05-06T12:32:51.0000000Z",
-    "duration_seconds":  186,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E05_chaos.mp3",
-    "audio_size_bytes":  2653037,
-    "youtube_url":  "https://youtu.be/TEfCRg0Zazk",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-cia-2026-s2-005",
+  "lang": "fr",
+  "series": "CIA_2026_S2",
+  "season": 1,
+  "episode_number": 5,
+  "slug": "chaos",
+  "title": "CIA Archives S2 · Opération CHAOS — la CIA espionnait les Américains sur leur propre sol",
+  "description": "CIA Archives S2 · Opération CHAOS — la CIA espionnait les Américains sur leur propre sol",
+  "published_at": "2026-05-06T12:32:51Z",
+  "duration_seconds": 186,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E05_chaos.mp3",
+  "audio_size_bytes": 2653037,
+  "youtube_url": "https://youtu.be/TEfCRg0Zazk",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-cia_2026-003",
-    "lang":  "fr",
-    "series":  "CIA_2026",
-    "season":  1,
-    "episode_number":  3,
-    "slug":  "jfk",
-    "title":  "OVNI — ce que les gouvernements ont officiellement admis (et ce qu\u0027ils taisent encore)",
-    "description":  "OVNI — ce que les gouvernements ont officiellement admis (et ce qu\u0027ils taisent encore)",
-    "published_at":  "2026-05-03T17:17:08.0000000Z",
-    "duration_seconds":  448,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E03_jfk.mp3",
-    "audio_size_bytes":  4828631,
-    "youtube_url":  "https://youtu.be/9FKQ-YNXe-M",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-cia_2026-003",
+  "lang": "fr",
+  "series": "CIA_2026",
+  "season": 1,
+  "episode_number": 3,
+  "slug": "jfk",
+  "title": "CIA Archives · OVNI — ce que les gouvernements ont officiellement admis (et ce qu'ils taisent encore)",
+  "description": "CIA Archives · OVNI — ce que les gouvernements ont officiellement admis (et ce qu'ils taisent encore)",
+  "published_at": "2026-05-03T17:17:08Z",
+  "duration_seconds": 448,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E03_jfk.mp3",
+  "audio_size_bytes": 4828631,
+  "youtube_url": "https://youtu.be/9FKQ-YNXe-M",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

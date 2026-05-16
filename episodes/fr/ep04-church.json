@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-cia-2026-s2-004",
-    "lang":  "fr",
-    "series":  "CIA_2026_S2",
-    "season":  1,
-    "episode_number":  4,
-    "slug":  "church",
-    "title":  "Le Comité Church — quand le Congrès a découvert les crimes de la CIA",
-    "description":  "Le Comité Church — quand le Congrès a découvert les crimes de la CIA",
-    "published_at":  "2026-05-06T12:32:14.0000000Z",
-    "duration_seconds":  177,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E04_church.mp3",
-    "audio_size_bytes":  3033682,
-    "youtube_url":  "https://youtu.be/ogeIvuOjDeg",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-cia-2026-s2-004",
+  "lang": "fr",
+  "series": "CIA_2026_S2",
+  "season": 1,
+  "episode_number": 4,
+  "slug": "church",
+  "title": "CIA Archives S2 · Le Comité Church — quand le Congrès a découvert les crimes de la CIA",
+  "description": "CIA Archives S2 · Le Comité Church — quand le Congrès a découvert les crimes de la CIA",
+  "published_at": "2026-05-06T12:32:14Z",
+  "duration_seconds": 177,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E04_church.mp3",
+  "audio_size_bytes": 3033682,
+  "youtube_url": "https://youtu.be/ogeIvuOjDeg",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

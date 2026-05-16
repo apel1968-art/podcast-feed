@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260507-003-006",
-    "lang":  "fr",
-    "series":  "SERIE_20260507_003",
-    "season":  1,
-    "episode_number":  6,
-    "slug":  "ep06_cqtc_001_a6",
-    "title":  "De MOL aux satellites espions d\u0027aujourd\u0027hui — la technologie secrète qui surveille encore la Terre",
-    "description":  "De MOL aux satellites espions d\u0027aujourd\u0027hui — la technologie secrète qui surveille encore la Terre",
-    "published_at":  "2026-05-10T17:24:44.0000000Z",
-    "duration_seconds":  453,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E06_ep06_cqtc_001_a6.mp3",
-    "audio_size_bytes":  5692677,
-    "youtube_url":  "https://youtu.be/R2tk7aiubVY",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260507-003-006",
+  "lang": "fr",
+  "series": "SERIE_20260507_003",
+  "season": 1,
+  "episode_number": 6,
+  "slug": "ep06_cqtc_001_a6",
+  "title": "Station MOL · De MOL aux satellites espions d'aujourd'hui — la technologie secrète qui surveille encore la Terre",
+  "description": "Station MOL · De MOL aux satellites espions d'aujourd'hui — la technologie secrète qui surveille encore la Terre",
+  "published_at": "2026-05-10T17:24:44Z",
+  "duration_seconds": 453,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E06_ep06_cqtc_001_a6.mp3",
+  "audio_size_bytes": 5692677,
+  "youtube_url": "https://youtu.be/R2tk7aiubVY",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

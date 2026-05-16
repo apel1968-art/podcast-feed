@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-ottawa-confidentiel-2026-004",
-    "lang":  "fr",
-    "series":  "OTTAWA_CONFIDENTIEL_2026",
-    "season":  1,
-    "episode_number":  4,
-    "slug":  "rcmp",
-    "title":  "La GRC dans l\u0027ombre — cambriolages, surveillance et la Commission McDonald",
-    "description":  "La GRC dans l\u0027ombre — cambriolages, surveillance et la Commission McDonald",
-    "published_at":  "2026-05-04T20:11:27.0000000Z",
-    "duration_seconds":  372,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E04_rcmp.mp3",
-    "audio_size_bytes":  4415688,
-    "youtube_url":  "",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-ottawa-confidentiel-2026-004",
+  "lang": "fr",
+  "series": "OTTAWA_CONFIDENTIEL_2026",
+  "season": 1,
+  "episode_number": 4,
+  "slug": "rcmp",
+  "title": "Ottawa Confidentiel · La GRC dans l'ombre — cambriolages, surveillance et la Commission McDonald",
+  "description": "Ottawa Confidentiel · La GRC dans l'ombre — cambriolages, surveillance et la Commission McDonald",
+  "published_at": "2026-05-04T20:11:27Z",
+  "duration_seconds": 372,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E04_rcmp.mp3",
+  "audio_size_bytes": 4415688,
+  "youtube_url": "",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

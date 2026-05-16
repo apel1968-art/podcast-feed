@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260508-004-004",
-    "lang":  "fr",
-    "series":  "SERIE_20260508_004",
-    "season":  1,
-    "episode_number":  4,
-    "slug":  "ep04_cqtc_002_a4",
-    "title":  "La peur d\u0027un monde monopolis� par les USA. Une puissance qui fait peur.",
-    "description":  "La peur d\u0027un monde monopolis� par les USA. Une puissance qui fait peur.",
-    "published_at":  "2026-05-09T09:06:07.0000000Z",
-    "duration_seconds":  507,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E04_ep04_cqtc_002_a4.mp3",
-    "audio_size_bytes":  5671246,
-    "youtube_url":  "https://youtu.be/CerXNBoY2MU",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260508-004-004",
+  "lang": "fr",
+  "series": "SERIE_20260508_004",
+  "season": 1,
+  "episode_number": 4,
+  "slug": "ep04_cqtc_002_a4",
+  "title": "MK-Ultra · La peur d'un monde monopolis� par les USA. Une puissance qui fait peur.",
+  "description": "MK-Ultra · La peur d'un monde monopolis� par les USA. Une puissance qui fait peur.",
+  "published_at": "2026-05-09T09:06:07Z",
+  "duration_seconds": 507,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E04_ep04_cqtc_002_a4.mp3",
+  "audio_size_bytes": 5671246,
+  "youtube_url": "https://youtu.be/CerXNBoY2MU",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

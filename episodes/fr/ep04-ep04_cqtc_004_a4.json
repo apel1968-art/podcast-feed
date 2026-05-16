@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260508-006-004",
-    "lang":  "fr",
-    "series":  "SERIE_20260508_006",
-    "season":  1,
-    "episode_number":  4,
-    "slug":  "ep04_cqtc_004_a4",
-    "title":  "Certains disent Nixon n’était pas le cerveau. Des archives prouvent le contraire.",
-    "description":  "Certains disent Nixon n’était pas le cerveau. Des archives prouvent le contraire.",
-    "published_at":  "2026-05-09T09:04:14.0000000Z",
-    "duration_seconds":  601,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E04_ep04_cqtc_004_a4.mp3",
-    "audio_size_bytes":  6823882,
-    "youtube_url":  "https://youtu.be/oN1O6Uh_inE",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260508-006-004",
+  "lang": "fr",
+  "series": "SERIE_20260508_006",
+  "season": 1,
+  "episode_number": 4,
+  "slug": "ep04_cqtc_004_a4",
+  "title": "Watergate · Certains disent Nixon n’était pas le cerveau. Des archives prouvent le contraire.",
+  "description": "Watergate · Certains disent Nixon n’était pas le cerveau. Des archives prouvent le contraire.",
+  "published_at": "2026-05-09T09:04:14Z",
+  "duration_seconds": 601,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E04_ep04_cqtc_004_a4.mp3",
+  "audio_size_bytes": 6823882,
+  "youtube_url": "https://youtu.be/oN1O6Uh_inE",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

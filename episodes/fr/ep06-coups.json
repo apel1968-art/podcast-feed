@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-cia-2026-s2-006",
-    "lang":  "fr",
-    "series":  "CIA_2026_S2",
-    "season":  1,
-    "episode_number":  6,
-    "slug":  "coups",
-    "title":  "Iran 1953, Guatemala 1954 — les coups d\u0027état que la CIA a officiellement admis",
-    "description":  "Iran 1953, Guatemala 1954 — les coups d\u0027état que la CIA a officiellement admis",
-    "published_at":  "2026-05-06T12:33:21.0000000Z",
-    "duration_seconds":  125,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E06_coups.mp3",
-    "audio_size_bytes":  2026574,
-    "youtube_url":  "https://youtu.be/WoxZbbGn9yU",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-cia-2026-s2-006",
+  "lang": "fr",
+  "series": "CIA_2026_S2",
+  "season": 1,
+  "episode_number": 6,
+  "slug": "coups",
+  "title": "CIA Archives S2 · Iran 1953, Guatemala 1954 — les coups d'état que la CIA a officiellement admis",
+  "description": "CIA Archives S2 · Iran 1953, Guatemala 1954 — les coups d'état que la CIA a officiellement admis",
+  "published_at": "2026-05-06T12:33:21Z",
+  "duration_seconds": 125,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E06_coups.mp3",
+  "audio_size_bytes": 2026574,
+  "youtube_url": "https://youtu.be/WoxZbbGn9yU",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

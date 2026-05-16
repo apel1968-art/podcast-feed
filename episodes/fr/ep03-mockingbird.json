@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-cia-2026-s2-003",
-    "lang":  "fr",
-    "series":  "CIA_2026_S2",
-    "season":  1,
-    "episode_number":  3,
-    "slug":  "mockingbird",
-    "title":  "Opération Mockingbird — la CIA dans les salles de rédaction",
-    "description":  "Opération Mockingbird — la CIA dans les salles de rédaction",
-    "published_at":  "2026-05-05T20:49:13.0000000Z",
-    "duration_seconds":  155,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E03_mockingbird.mp3",
-    "audio_size_bytes":  2219725,
-    "youtube_url":  "https://youtu.be/AL5o_5p2rIs",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-cia-2026-s2-003",
+  "lang": "fr",
+  "series": "CIA_2026_S2",
+  "season": 1,
+  "episode_number": 3,
+  "slug": "mockingbird",
+  "title": "CIA Archives S2 · Opération Mockingbird — la CIA dans les salles de rédaction",
+  "description": "CIA Archives S2 · Opération Mockingbird — la CIA dans les salles de rédaction",
+  "published_at": "2026-05-05T20:49:13Z",
+  "duration_seconds": 155,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E03_mockingbird.mp3",
+  "audio_size_bytes": 2219725,
+  "youtube_url": "https://youtu.be/AL5o_5p2rIs",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

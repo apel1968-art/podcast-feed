@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260508-004-003",
-    "lang":  "fr",
-    "series":  "SERIE_20260508_004",
-    "season":  1,
-    "episode_number":  3,
-    "slug":  "ep03_cqtc_002_a3",
-    "title":  "Les preuves la contredisent � moiti�. Il y a une raison pour cela.",
-    "description":  "Les preuves la contredisent � moiti�. Il y a une raison pour cela.",
-    "published_at":  "2026-05-14T14:29:55.0000000Z",
-    "duration_seconds":  574,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E03_ep03_cqtc_002_a3.mp3",
-    "audio_size_bytes":  6067332,
-    "youtube_url":  "https://youtu.be/VfVdI9voEG4",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260508-004-003",
+  "lang": "fr",
+  "series": "SERIE_20260508_004",
+  "season": 1,
+  "episode_number": 3,
+  "slug": "ep03_cqtc_002_a3",
+  "title": "MK-Ultra · Les preuves la contredisent � moiti�. Il y a une raison pour cela.",
+  "description": "MK-Ultra · Les preuves la contredisent � moiti�. Il y a une raison pour cela.",
+  "published_at": "2026-05-14T14:29:55Z",
+  "duration_seconds": 574,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-004/E03_ep03_cqtc_002_a3.mp3",
+  "audio_size_bytes": 6067332,
+  "youtube_url": "https://youtu.be/VfVdI9voEG4",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-cia_2026-006",
-    "lang":  "fr",
-    "series":  "CIA_2026",
-    "season":  1,
-    "episode_number":  6,
-    "slug":  "heritage",
-    "title":  "La méthode — comment lire ce qu\u0027on préfèrerait que tu ignores",
-    "description":  "La méthode — comment lire ce qu\u0027on préfèrerait que tu ignores",
-    "published_at":  "2026-05-03T17:21:55.0000000Z",
-    "duration_seconds":  347,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E06_heritage.mp3",
-    "audio_size_bytes":  4343180,
-    "youtube_url":  "https://youtu.be/pyxPn_GDg7k",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-cia_2026-006",
+  "lang": "fr",
+  "series": "CIA_2026",
+  "season": 1,
+  "episode_number": 6,
+  "slug": "heritage",
+  "title": "CIA Archives · La méthode — comment lire ce qu'on préfèrerait que tu ignores",
+  "description": "CIA Archives · La méthode — comment lire ce qu'on préfèrerait que tu ignores",
+  "published_at": "2026-05-03T17:21:55Z",
+  "duration_seconds": 347,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia_2026/E06_heritage.mp3",
+  "audio_size_bytes": 4343180,
+  "youtube_url": "https://youtu.be/pyxPn_GDg7k",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

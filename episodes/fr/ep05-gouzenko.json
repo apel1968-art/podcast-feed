@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-ottawa-confidentiel-2026-005",
-    "lang":  "fr",
-    "series":  "OTTAWA_CONFIDENTIEL_2026",
-    "season":  1,
-    "episode_number":  5,
-    "slug":  "gouzenko",
-    "title":  "L\u0027Affaire Gouzenko — le défecteur qui a changé la Guerre froide depuis Ottawa",
-    "description":  "L\u0027Affaire Gouzenko — le défecteur qui a changé la Guerre froide depuis Ottawa",
-    "published_at":  "2026-05-11T16:01:34.0000000Z",
-    "duration_seconds":  382,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E05_gouzenko.mp3",
-    "audio_size_bytes":  4166859,
-    "youtube_url":  "https://youtu.be/pcUFGWIo1Y0",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-ottawa-confidentiel-2026-005",
+  "lang": "fr",
+  "series": "OTTAWA_CONFIDENTIEL_2026",
+  "season": 1,
+  "episode_number": 5,
+  "slug": "gouzenko",
+  "title": "Ottawa Confidentiel · L'Affaire Gouzenko — le défecteur qui a changé la Guerre froide depuis Ottawa",
+  "description": "Ottawa Confidentiel · L'Affaire Gouzenko — le défecteur qui a changé la Guerre froide depuis Ottawa",
+  "published_at": "2026-05-11T16:01:34Z",
+  "duration_seconds": 382,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E05_gouzenko.mp3",
+  "audio_size_bytes": 4166859,
+  "youtube_url": "https://youtu.be/pcUFGWIo1Y0",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

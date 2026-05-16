@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260504-002-001",
-    "lang":  "fr",
-    "series":  "SERIE_20260504_002",
-    "season":  1,
-    "episode_number":  1,
-    "slug":  "ep01_cqtc_000b_a1",
-    "title":  "195 séances d\u0027hypnose, zéro résultat — le programme secret de la CIA avant Stargate",
-    "description":  "195 séances d\u0027hypnose, zéro résultat — le programme secret de la CIA avant Stargate",
-    "published_at":  "2026-05-10T17:22:06.0000000Z",
-    "duration_seconds":  473,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E01_ep01_cqtc_000b_a1.mp3",
-    "audio_size_bytes":  5275966,
-    "youtube_url":  "https://youtu.be/JuKPb_0K-GM",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260504-002-001",
+  "lang": "fr",
+  "series": "SERIE_20260504_002",
+  "season": 1,
+  "episode_number": 1,
+  "slug": "ep01_cqtc_000b_a1",
+  "title": "Stargate · 195 séances d'hypnose, zéro résultat — le programme secret de la CIA avant Stargate",
+  "description": "Stargate · 195 séances d'hypnose, zéro résultat — le programme secret de la CIA avant Stargate",
+  "published_at": "2026-05-10T17:22:06Z",
+  "duration_seconds": 473,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E01_ep01_cqtc_000b_a1.mp3",
+  "audio_size_bytes": 5275966,
+  "youtube_url": "https://youtu.be/JuKPb_0K-GM",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

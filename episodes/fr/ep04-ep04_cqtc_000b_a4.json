@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260504-002-004",
-    "lang":  "fr",
-    "series":  "SERIE_20260504_002",
-    "season":  1,
-    "episode_number":  4,
-    "slug":  "ep04_cqtc_000b_a4",
-    "title":  "13 ans d\u0027expériences psychiques — les protocoles, les sujets et pourquoi rien n\u0027a fonctionné",
-    "description":  "13 ans d\u0027expériences psychiques — les protocoles, les sujets et pourquoi rien n\u0027a fonctionné",
-    "published_at":  "2026-05-15T16:30:12.0000000Z",
-    "duration_seconds":  536,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E04_ep04_cqtc_000b_a4.mp3",
-    "audio_size_bytes":  6343194,
-    "youtube_url":  "https://youtu.be/JlnodPj5iHM",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260504-002-004",
+  "lang": "fr",
+  "series": "SERIE_20260504_002",
+  "season": 1,
+  "episode_number": 4,
+  "slug": "ep04_cqtc_000b_a4",
+  "title": "Stargate · 13 ans d'expériences psychiques — les protocoles, les sujets et pourquoi rien n'a fonctionné",
+  "description": "Stargate · 13 ans d'expériences psychiques — les protocoles, les sujets et pourquoi rien n'a fonctionné",
+  "published_at": "2026-05-15T16:30:12Z",
+  "duration_seconds": 536,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-002/E04_ep04_cqtc_000b_a4.mp3",
+  "audio_size_bytes": 6343194,
+  "youtube_url": "https://youtu.be/JlnodPj5iHM",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-ottawa-confidentiel-2026-001",
-    "lang":  "fr",
-    "series":  "OTTAWA_CONFIDENTIEL_2026",
-    "season":  1,
-    "episode_number":  1,
-    "slug":  "intro",
-    "title":  "Ce que la Loi sur l\u0027accès à l\u0027information ne te montrera jamais",
-    "description":  "Ce que la Loi sur l\u0027accès à l\u0027information ne te montrera jamais",
-    "published_at":  "2026-05-03T23:35:05.0000000Z",
-    "duration_seconds":  394,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E01_intro.mp3",
-    "audio_size_bytes":  5287218,
-    "youtube_url":  "",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-ottawa-confidentiel-2026-001",
+  "lang": "fr",
+  "series": "OTTAWA_CONFIDENTIEL_2026",
+  "season": 1,
+  "episode_number": 1,
+  "slug": "intro",
+  "title": "Ottawa Confidentiel · Ce que la Loi sur l'accès à l'information ne te montrera jamais",
+  "description": "Ottawa Confidentiel · Ce que la Loi sur l'accès à l'information ne te montrera jamais",
+  "published_at": "2026-05-03T23:35:05Z",
+  "duration_seconds": 394,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E01_intro.mp3",
+  "audio_size_bytes": 5287218,
+  "youtube_url": "",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }

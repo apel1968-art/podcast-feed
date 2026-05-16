@@ -1,22 +1,22 @@
 ﻿{
-    "guid":  "cqtc-fr-serie-20260504-001-002",
-    "lang":  "fr",
-    "series":  "SERIE_20260504_001",
-    "season":  1,
-    "episode_number":  2,
-    "slug":  "ep02_cqtc_000a_a2",
-    "title":  "40 agents du Mossad en territoire hostile — les missions que personne n\u0027a confirmées officiellement",
-    "description":  "40 agents du Mossad en territoire hostile — les missions que personne n\u0027a confirmées officiellement",
-    "published_at":  "2026-05-08T05:29:53.0000000Z",
-    "duration_seconds":  379,
-    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E02_ep02_cqtc_000a_a2.mp3",
-    "audio_size_bytes":  4429531,
-    "youtube_url":  "https://youtu.be/-2OMx6mvyPU",
-    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
-    "keywords":  [
-                     "CIA",
-                     "dossiers secrets",
-                     "histoire",
-                     "espionnage"
-                 ]
+  "guid": "cqtc-fr-serie-20260504-001-002",
+  "lang": "fr",
+  "series": "SERIE_20260504_001",
+  "season": 1,
+  "episode_number": 2,
+  "slug": "ep02_cqtc_000a_a2",
+  "title": "Mossad · 40 agents du Mossad en territoire hostile — les missions que personne n'a confirmées officiellement",
+  "description": "Mossad · 40 agents du Mossad en territoire hostile — les missions que personne n'a confirmées officiellement",
+  "published_at": "2026-05-08T05:29:53Z",
+  "duration_seconds": 379,
+  "audio_url": "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E02_ep02_cqtc_000a_a2.mp3",
+  "audio_size_bytes": 4429531,
+  "youtube_url": "https://youtu.be/-2OMx6mvyPU",
+  "image_url": "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+  "keywords": [
+    "CIA",
+    "dossiers secrets",
+    "histoire",
+    "espionnage"
+  ]
 }
