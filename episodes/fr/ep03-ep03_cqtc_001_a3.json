@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260507-003-003",
+    "lang":  "fr",
+    "series":  "SERIE_20260507_003",
+    "season":  1,
+    "episode_number":  3,
+    "slug":  "ep03_cqtc_001_a3",
+    "title":  "Le Dorian : la caméra secrète à 50 cm de résolution que l\u0027URSS ne devait jamais découvrir",
+    "description":  "Le Dorian : la caméra secrète à 50 cm de résolution que l\u0027URSS ne devait jamais découvrir",
+    "published_at":  "2026-05-09T09:05:12.0000000Z",
+    "duration_seconds":  502,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E03_ep03_cqtc_001_a3.mp3",
+    "audio_size_bytes":  5799791,
+    "youtube_url":  "https://youtu.be/-yYc1SoMhEI",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

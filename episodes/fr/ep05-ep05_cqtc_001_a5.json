@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260507-003-005",
+    "lang":  "fr",
+    "series":  "SERIE_20260507_003",
+    "season":  1,
+    "episode_number":  5,
+    "slug":  "ep05_cqtc_001_a5",
+    "title":  "Annulé 40 jours avant Apollo 11 — les documents encore classifiés de MOL",
+    "description":  "Annulé 40 jours avant Apollo 11 — les documents encore classifiés de MOL",
+    "published_at":  "2026-05-15T16:30:33.0000000Z",
+    "duration_seconds":  497,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E05_ep05_cqtc_001_a5.mp3",
+    "audio_size_bytes":  5742135,
+    "youtube_url":  "https://youtu.be/rdZqkoT4DI0",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

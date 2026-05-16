@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260504-001-003",
+    "lang":  "fr",
+    "series":  "SERIE_20260504_001",
+    "season":  1,
+    "episode_number":  3,
+    "slug":  "ep03_cqtc_000a_a3",
+    "title":  "Mossad et KGB — les documents qui suggèrent une coopération secrète pendant la Guerre froide",
+    "description":  "Mossad et KGB — les documents qui suggèrent une coopération secrète pendant la Guerre froide",
+    "published_at":  "2026-05-09T03:15:02.0000000Z",
+    "duration_seconds":  437,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E03_ep03_cqtc_000a_a3.mp3",
+    "audio_size_bytes":  5245676,
+    "youtube_url":  "https://youtu.be/Pea2BrJ1jXM",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

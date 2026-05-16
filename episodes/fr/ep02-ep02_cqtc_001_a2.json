@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260507-003-002",
+    "lang":  "fr",
+    "series":  "SERIE_20260507_003",
+    "season":  1,
+    "episode_number":  2,
+    "slug":  "ep02_cqtc_001_a2",
+    "title":  "17 astronautes militaires pour une mission dont personne ne devait parler",
+    "description":  "17 astronautes militaires pour une mission dont personne ne devait parler",
+    "published_at":  "2026-05-15T16:30:23.0000000Z",
+    "duration_seconds":  587,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E02_ep02_cqtc_001_a2.mp3",
+    "audio_size_bytes":  7365054,
+    "youtube_url":  "https://youtu.be/4cXW0z98k2Y",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260508-006-002",
+    "lang":  "fr",
+    "series":  "SERIE_20260508_006",
+    "season":  1,
+    "episode_number":  2,
+    "slug":  "ep02_cqtc_004_a2",
+    "title":  "Les enregistrements Oval Office prouvent la culpabilité. Nixon a tenté de les effacer.",
+    "description":  "Les enregistrements Oval Office prouvent la culpabilité. Nixon a tenté de les effacer.",
+    "published_at":  "2026-05-14T14:30:34.0000000Z",
+    "duration_seconds":  603,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E02_ep02_cqtc_004_a2.mp3",
+    "audio_size_bytes":  6751631,
+    "youtube_url":  "https://youtu.be/kBa9492iTms",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

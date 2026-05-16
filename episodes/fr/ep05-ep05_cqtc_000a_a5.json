@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260504-001-005",
+    "lang":  "fr",
+    "series":  "SERIE_20260504_001",
+    "season":  1,
+    "episode_number":  5,
+    "slug":  "ep05_cqtc_000a_a5",
+    "title":  "L\u0027Unité 8200 — la division cyber du Mossad que Tel Aviv ne reconnaît pas officiellement",
+    "description":  "L\u0027Unité 8200 — la division cyber du Mossad que Tel Aviv ne reconnaît pas officiellement",
+    "published_at":  "2026-05-09T03:16:36.0000000Z",
+    "duration_seconds":  434,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E05_ep05_cqtc_000a_a5.mp3",
+    "audio_size_bytes":  5369975,
+    "youtube_url":  "https://youtu.be/WssMnX2azqo",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

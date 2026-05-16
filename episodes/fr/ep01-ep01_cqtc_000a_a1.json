@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260504-001-001",
+    "lang":  "fr",
+    "series":  "SERIE_20260504_001",
+    "season":  1,
+    "episode_number":  1,
+    "slug":  "ep01_cqtc_000a_a1",
+    "title":  "Le Mossad — 12 assassinats ciblés dont les commanditaires n\u0027ont jamais comparu",
+    "description":  "Le Mossad — 12 assassinats ciblés dont les commanditaires n\u0027ont jamais comparu",
+    "published_at":  "2026-05-09T10:11:18.0000000Z",
+    "duration_seconds":  411,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260504-001/E01_ep01_cqtc_000a_a1.mp3",
+    "audio_size_bytes":  5377068,
+    "youtube_url":  "https://youtu.be/jtyWGE4ZG_0",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

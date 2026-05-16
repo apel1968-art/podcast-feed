@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-ottawa-confidentiel-2026-002",
+    "lang":  "fr",
+    "series":  "OTTAWA_CONFIDENTIEL_2026",
+    "season":  1,
+    "episode_number":  2,
+    "slug":  "cameron",
+    "title":  "Le Dr. Cameron — les expériences secrètes financées par la CIA à Montréal",
+    "description":  "Le Dr. Cameron — les expériences secrètes financées par la CIA à Montréal",
+    "published_at":  "2026-05-04T16:00:32.0000000Z",
+    "duration_seconds":  407,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-ottawa-confidentiel-2026/E02_cameron.mp3",
+    "audio_size_bytes":  4947647,
+    "youtube_url":  "",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

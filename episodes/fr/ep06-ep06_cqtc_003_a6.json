@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260508-005-006",
+    "lang":  "fr",
+    "series":  "SERIE_20260508_005",
+    "season":  1,
+    "episode_number":  6,
+    "slug":  "ep06_cqtc_003_a6",
+    "title":  "Un nom de haut gradé CIA apparaît, mais sa page est entièrement effacée.",
+    "description":  "Un nom de haut gradé CIA apparaît, mais sa page est entièrement effacée.",
+    "published_at":  "2026-05-15T16:01:38.0000000Z",
+    "duration_seconds":  767,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-005/E06_ep06_cqtc_003_a6.mp3",
+    "audio_size_bytes":  7686341,
+    "youtube_url":  "https://youtu.be/kYXqB7r1AS4",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

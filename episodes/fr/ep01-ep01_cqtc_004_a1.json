@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260508-006-001",
+    "lang":  "fr",
+    "series":  "SERIE_20260508_006",
+    "season":  1,
+    "episode_number":  1,
+    "slug":  "ep01_cqtc_004_a1",
+    "title":  "17 juin 1972 : 5 hommes arrêtés au DNC. Ils travaillaient pour Nixon.",
+    "description":  "17 juin 1972 : 5 hommes arrêtés au DNC. Ils travaillaient pour Nixon.",
+    "published_at":  "2026-05-16T01:59:06.4886998Z",
+    "duration_seconds":  565,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260508-006/E01_ep01_cqtc_004_a1.mp3",
+    "audio_size_bytes":  5311238,
+    "youtube_url":  "",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

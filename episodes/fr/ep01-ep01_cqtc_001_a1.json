@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-serie-20260507-003-001",
+    "lang":  "fr",
+    "series":  "SERIE_20260507_003",
+    "season":  1,
+    "episode_number":  1,
+    "slug":  "ep01_cqtc_001_a1",
+    "title":  "Le programme fantôme — le Pentagone avait sa propre station spatiale depuis 1963",
+    "description":  "Le programme fantôme — le Pentagone avait sa propre station spatiale depuis 1963",
+    "published_at":  "2026-05-11T16:03:24.0000000Z",
+    "duration_seconds":  488,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-serie-20260507-003/E01_ep01_cqtc_001_a1.mp3",
+    "audio_size_bytes":  5640224,
+    "youtube_url":  "https://youtu.be/9-0B4rLDu4U",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}

@@ -1,0 +1,22 @@
+﻿{
+    "guid":  "cqtc-fr-cia-2026-s2-002",
+    "lang":  "fr",
+    "series":  "CIA_2026_S2",
+    "season":  1,
+    "episode_number":  2,
+    "slug":  "cointelpro",
+    "title":  "COINTELPRO — le FBI espionnait Martin Luther King et voulait le détruire",
+    "description":  "COINTELPRO — le FBI espionnait Martin Luther King et voulait le détruire",
+    "published_at":  "2026-05-05T20:37:23.0000000Z",
+    "duration_seconds":  214,
+    "audio_url":  "https://github.com/apel1968-art/podcast-feed/releases/download/audio-fr-cia-2026-s2/E02_cointelpro.mp3",
+    "audio_size_bytes":  3474991,
+    "youtube_url":  "https://youtu.be/7ICy7nuRkA4",
+    "image_url":  "https://apel1968-art.github.io/podcast-feed/covers/cqtc_fr.jpg",
+    "keywords":  [
+                     "CIA",
+                     "dossiers secrets",
+                     "histoire",
+                     "espionnage"
+                 ]
+}
